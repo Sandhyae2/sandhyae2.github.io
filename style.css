@@ -47,7 +47,7 @@ nav {
 
 .logo {
     font-family: 'Satisfy', cursive !important;
-    font-size: 22px ;
+    font-size: 22px !important ;
     font-weight: 400;
     letter-spacing: 0.4px;
     line-height: 1 ;
