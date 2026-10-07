@@ -216,3 +216,15 @@ section:not(.hero) {
         height: 280px;
     }
 }
+
+body::before {
+    content: "CSS TEST";
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    z-index: 9999;
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
