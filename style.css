@@ -30,30 +30,31 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(11, 11, 15, 0.85);
+    background: rgba(11, 11, 15, 0.88);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 nav {
-    max-width: 1200px;
+    max-width: 1180px;
     margin: auto;
-    padding: 20px 30px;
+    padding: 28px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 .nav-links {
     display: flex;
-    gap: 22px;
-    font-size: 14px;
-    color: #b8b5c2;
+    gap: 20px;
+    font-size: 13px;
+    color: #a7a3af;
 }
 
 .nav-links a:hover {
@@ -65,44 +66,45 @@ nav {
 
 .hero {
     min-height: 100vh;
-    max-width: 1200px;
+    max-width: 1180px;
     margin: auto;
-    padding: 140px 30px 80px;
+
+    padding: 150px 35px 80px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: 70px;
 }
 
 .hero-content {
-    max-width: 650px;
+    max-width: 600px;
 }
 
 .eyebrow {
-    color: #8f7cff;
-    font-size: 13px;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
+    color: #9b8cff;
+    font-size: 11px;
+    letter-spacing: 1.8px;
+    margin-bottom: 22px;
 }
 
 .hero h1 {
-    font-size: clamp(48px, 6vw, 78px);
-    line-height: 1.08;
-    font-weight: 600;
-    margin-bottom: 25px;
+    font-size: clamp(42px, 5vw, 58px);
+    line-height: 1.12;
+    font-weight: 500;
+    margin-bottom: 22px;
 }
 
 .subtitle {
-    font-size: 20px;
-    color: #c4c0cc;
-    margin-bottom: 18px;
+    font-size: 17px;
+    color: #c0bcc7;
+    margin-bottom: 14px;
 }
 
 .intro {
-    max-width: 550px;
-    color: #8f8b98;
-    font-size: 17px;
+    max-width: 500px;
+    color: #85818d;
+    font-size: 15px;
 }
 
 
@@ -111,16 +113,17 @@ nav {
 .hero-buttons {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-top: 35px;
+    gap: 12px;
+    margin-top: 28px;
 }
 
 .button,
 .icon-button {
-    padding: 11px 20px;
-    border-radius: 6px;
-    border: 1px solid #3a3548;
+    padding: 9px 17px;
+    border-radius: 5px;
+    border: 1px solid #383343;
     transition: 0.25s ease;
+    font-size: 13px;
 }
 
 .button {
@@ -134,7 +137,7 @@ nav {
 }
 
 .icon-button {
-    color: #c7c3cf;
+    color: #bdb9c5;
 }
 
 .icon-button:hover {
@@ -146,9 +149,10 @@ nav {
 /* ---------- Scientific Visual ---------- */
 
 .hero-visual {
-    width: 420px;
-    height: 420px;
+    width: 380px;
+    height: 380px;
     position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,30 +160,32 @@ nav {
 
 .neuron-glow {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
+
     background: radial-gradient(
         circle,
-        rgba(143, 124, 255, 0.25),
-        rgba(60, 120, 255, 0.08),
+        rgba(143, 124, 255, 0.22),
+        rgba(60, 120, 255, 0.07),
         transparent 70%
     );
+
     filter: blur(20px);
 }
 
 .visual-placeholder {
     position: relative;
-    font-size: 130px;
-    opacity: 0.9;
+    font-size: 105px;
+    opacity: 0.85;
 }
 
 
-/* ---------- Empty Sections ---------- */
+/* ---------- Sections ---------- */
 
 section:not(.hero) {
     min-height: 100vh;
-    padding: 120px 30px;
+    padding: 120px 35px;
 }
 
 
@@ -206,7 +212,7 @@ section:not(.hero) {
     }
 
     .hero-visual {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
     }
 }
