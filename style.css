@@ -45,7 +45,7 @@ nav {
 }
 
 .logo {
-    font-family: 'Brush Script MT', cursive; 
+    font-family: 'Brush Script MT', cursive !important; 
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.4px;
